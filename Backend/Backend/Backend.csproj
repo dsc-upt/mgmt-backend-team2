@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="Properties\Database\**" />
+      <Compile Remove="Controllers\Database\**" />
+      <Compile Remove="WeatherForecast\**" />
+      <Compile Remove="Database\**" />
+      <Compile Remove="Controllers\UserController.cs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="Properties\Database\**" />
+      <EmbeddedResource Remove="Controllers\Database\**" />
+      <EmbeddedResource Remove="WeatherForecast\**" />
+      <EmbeddedResource Remove="Database\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Properties\Database\**" />
+      <None Remove="Controllers\Database\**" />
+      <None Remove="WeatherForecast\**" />
+      <None Remove="Database\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Remove="Properties\Database\**" />
+      <Content Remove="Controllers\Database\**" />
+      <Content Remove="WeatherForecast\**" />
+      <Content Remove="Database\**" />
+    </ItemGroup>
+
+</Project>
