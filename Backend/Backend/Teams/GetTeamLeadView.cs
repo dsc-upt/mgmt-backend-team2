@@ -1,0 +1,7 @@
+﻿namespace Backend.Users;
+
+public class GetTeamLeadView
+{
+    public string Username { get; set; }
+    public string Email { get; set; }
+}

@@ -13,5 +13,6 @@ public class User : Entity
     public string Email { get; set; }
     [Required]
     public string Roles { get; set; }
+    public string Username { get; set; }
 }
 
