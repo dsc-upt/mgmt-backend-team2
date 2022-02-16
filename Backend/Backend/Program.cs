@@ -1,5 +1,9 @@
 //using Backend.Database;
 //using Microsoft.EntityFrameworkCore;
+
+using Backend.Database;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -10,10 +14,10 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 //Configuring database
-/*
- var connectionString = "Host=gdscupt.tech;Port=6969;Database=users-dan;Username=guest;Password=cocacola";
+
+ var connectionString = "Host=backend;Port=6969;Database=users-ariana;Username=guest;Password=cocacola";
 builder.Services.AddDbContext<AppDbContext>(options => options.UseNpgsql(connectionString));
- */
+ 
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

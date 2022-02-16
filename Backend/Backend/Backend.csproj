@@ -21,7 +21,7 @@
       <Compile Remove="Controllers\Database\**" />
       <Compile Remove="WeatherForecast\**" />
       <Compile Remove="Controllers\UserController.cs" />
-      <Compile Include="Database\AppDbContext.cs" />
+        <Compile Include="Database\AppDbContext.cs" />
     </ItemGroup>
 
     <ItemGroup>

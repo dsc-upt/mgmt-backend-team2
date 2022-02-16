@@ -901,19 +901,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Alex\\.nuget\\packages\\": {}
+    "C:\\Users\\Ariana\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alex\\Documents\\mgmt-backend-team2\\Backend\\Backend\\Backend.csproj",
+      "projectUniqueName": "C:\\Users\\Ariana\\Desktop\\2022 gdsc\\mgmt-backend-team2\\Backend\\Backend\\Backend.csproj",
       "projectName": "Backend",
-      "projectPath": "C:\\Users\\Alex\\Documents\\mgmt-backend-team2\\Backend\\Backend\\Backend.csproj",
-      "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alex\\Documents\\mgmt-backend-team2\\Backend\\Backend\\obj\\",
+      "projectPath": "C:\\Users\\Ariana\\Desktop\\2022 gdsc\\mgmt-backend-team2\\Backend\\Backend\\Backend.csproj",
+      "packagesPath": "C:\\Users\\Ariana\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ariana\\Desktop\\2022 gdsc\\mgmt-backend-team2\\Backend\\Backend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Ariana\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"

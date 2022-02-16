@@ -1,4 +1,6 @@
-﻿namespace Backend.Users;
+﻿using Backend.Teams;
+
+namespace Backend.Teams;
 
 public class GetTeamView
 {

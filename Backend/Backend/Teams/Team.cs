@@ -1,5 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
-namespace Backend.Users;
+using Backend.Users;
+
+namespace Backend.Teams;
 
 public class Team : Entity
 {

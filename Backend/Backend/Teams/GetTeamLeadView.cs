@@ -1,4 +1,4 @@
-﻿namespace Backend.Users;
+﻿namespace Backend.Teams;
 
 public class GetTeamLeadView
 {

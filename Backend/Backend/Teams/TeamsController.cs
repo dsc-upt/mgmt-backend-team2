@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-namespace Backend.Users;
+namespace Backend.Teams;
 [ApiController]
 [Route("api/[controller]")]
 public class TeamsController : ControllerBase
@@ -23,7 +23,7 @@ public class TeamsController : ControllerBase
     [HttpPost]
     public async Task<GetTeamView> Add(AddTeamView teamView)
     {
-        var teamLead = await AppDbContext.Users.FirstOrDefaultAsync(user => user.Id == teamView.TeamLeadId);
+        var teamLead = await _appDbContext.Users.FirstOrDefaultAsync(user => user.Id == teamView.TeamLeadId);
         if (teamLead is null)
         {
             throw new ArgumentException("Team lead not found");
