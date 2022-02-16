@@ -15,31 +15,5 @@
         <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="6.0.3" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
     </ItemGroup>
-
-    <ItemGroup>
-      <Compile Remove="Properties\Database\**" />
-      <Compile Remove="Controllers\Database\**" />
-      <Compile Remove="WeatherForecast\**" />
-      <Compile Remove="Controllers\UserController.cs" />
-        <Compile Include="Database\AppDbContext.cs" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <EmbeddedResource Remove="Properties\Database\**" />
-      <EmbeddedResource Remove="Controllers\Database\**" />
-      <EmbeddedResource Remove="WeatherForecast\**" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <None Remove="Properties\Database\**" />
-      <None Remove="Controllers\Database\**" />
-      <None Remove="WeatherForecast\**" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <Content Remove="Properties\Database\**" />
-      <Content Remove="Controllers\Database\**" />
-      <Content Remove="WeatherForecast\**" />
-    </ItemGroup>
-
+    
 </Project>
