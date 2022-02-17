@@ -1,6 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using Backend.Users;
 
-namespace Backend.Users;
+namespace Backend.Client;
 
 public class Client : Entity
 {

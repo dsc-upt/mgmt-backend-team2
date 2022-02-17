@@ -1,11 +1,10 @@
 ﻿using Backend.Database;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.OpenApi.Extensions;
 
 namespace Backend.Users;
 
 [ApiController]
-[Route("api/users")]
+[Route("api/[controller]")]
 
 public class UsersController : ControllerBase
 {
@@ -30,10 +29,6 @@ public class UsersController : ControllerBase
         };
         return user;
     }
-
-   // private var result = await.... (user);
-   // return
-
 }
 
 

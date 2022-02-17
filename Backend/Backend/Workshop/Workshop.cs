@@ -1,6 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using Backend.Users;
 
-namespace Backend.Users;
+namespace Backend.Workshop;
 
 public class Workshop : Entity
 {
@@ -10,7 +11,8 @@ public class Workshop : Entity
     public string Topic { get; set; }
     [Required]
     public string Description { get; set; }
-    //cover image
+    [Required]
+    public string CoverImage { get; set; }
     [Required]
     public  DateOnly DateStart { get; set; }
     [Required]
@@ -21,5 +23,6 @@ public class Workshop : Entity
     public string Location { get; set; }
     [Required]
     public User[]  Participants { get; set; }
-    //ppt
+    [Required]
+    public string Powerpoint { get; set; }
 }

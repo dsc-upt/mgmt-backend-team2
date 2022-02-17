@@ -1,6 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using Backend.Teams;
 
-namespace Backend.Users;
+namespace Backend.Project;
 
 public class Project
 {
@@ -10,5 +11,8 @@ public class Project
     public string Manager { get; set; }
     [Required]
     public string Status { get; set; }
-    // client, teams??
+    [Required] 
+    public Client.Client Client { get; set; }
+    [Required]
+    public ICollection<Team> Teams { get; set; }
 }

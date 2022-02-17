@@ -1,11 +1,12 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace Backend.Users;
 
 public class UserProfile : Entity
 {
     [Required]
-    public string User { get; set; }
+    public User User { get; set; }
     [Required]
     public string Teams { get; set; }
     [Required]
@@ -15,5 +16,6 @@ public class UserProfile : Entity
     public string Phone { get; set; }
     [Required]
     public DateOnly Birthday { get; set; }
-    //picture
+    [Required]
+    public string Picture { get; set; }
 }

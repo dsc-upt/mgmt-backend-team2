@@ -2,7 +2,10 @@
 //using Microsoft.EntityFrameworkCore;
 
 using Backend.Database;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,8 +17,9 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 //Configuring database
+var connectionString = "Host=gdscupt.tech;Port=6969;Database=users-alex;Username=guest;Password=cocacola";
+ // var connectionString = builder.Configuration.GetConnectionString("Default");
 
- var connectionString = "Host=backend;Port=6969;Database=users-ariana;Username=guest;Password=cocacola";
 builder.Services.AddDbContext<AppDbContext>(options => options.UseNpgsql(connectionString));
  
 var app = builder.Build();

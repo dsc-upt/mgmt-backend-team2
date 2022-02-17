@@ -1,4 +1,4 @@
-﻿{
+{
     "Logging": {
         "LogLevel": {
             "Default": "Debug",
@@ -7,7 +7,7 @@
         },
         "ConnectionStrings":
         {
-            "Default": "Host=gdscupt.tech;Port=6969;Database=users-alex;Username=guest;Password=cocacola"
+            "Default": "Host=;Port=;Database=;Username=;Password=""
         }
     }
 }

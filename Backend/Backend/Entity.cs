@@ -1,4 +1,6 @@
-﻿namespace Backend;
+﻿using System;
+
+namespace Backend;
 
 public abstract class Entity
 {
