@@ -18,7 +18,7 @@ builder.Services.AddSwaggerGen();
 
 //Configuring database
 
- var connectionString = "Host=backend;Port=6969;Database=users-ariana;Username=guest;Password=cocacola";
+ var connectionString = "Host=gdscupt.tech;Port=6969;Database=users_ariana;Username=guest;Password=cocacola";
 builder.Services.AddDbContext<AppDbContext>(options => options.UseNpgsql(connectionString));
  
 var app = builder.Build();

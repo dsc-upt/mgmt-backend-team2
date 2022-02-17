@@ -9,15 +9,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="909330bd-2e30-4135-bdaf-63429569a24b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Backend/Backend.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Backend.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Controllers/WeatherForecastController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Controllers/WeatherForecastController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Entity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Entity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Backend/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Backend/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Backend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Backend/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Database/AppDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Database/AppDbContext.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Backend/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Teams/TeamsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Teams/TeamsController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Users/UserProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Users/UserProfile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Users/UsersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Users/UsersController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/Users/Workshop.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Users/Workshop.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Backend/WeatherForecast.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/WeatherForecast.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Users/Client.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Others/Client.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Users/Project.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Others/Project.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/Users/Workshop.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/Others/Workshop.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,34 +25,40 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Backend/Database/AppDbContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Backend/Entity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Backend/Others/Project.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Backend/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Backend/Teams/AddTeamView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Backend/Teams/Team.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Backend/Teams/TeamsController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Backend/Users/Project.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Backend/Users/User.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="24q65T1WXIUe6Lfd7ftP9aUskhr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Backend">
     <configuration name="Backend" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Backend/Backend.csproj" />
@@ -101,7 +105,8 @@
       <workItem from="1644922031255" duration="5366000" />
       <workItem from="1644948595795" duration="5372000" />
       <workItem from="1644954231056" duration="1446000" />
-      <workItem from="1645019648755" duration="3611000" />
+      <workItem from="1645019648755" duration="4108000" />
+      <workItem from="1645029437029" duration="8205000" />
     </task>
     <servers />
   </component>
@@ -110,6 +115,17 @@
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
